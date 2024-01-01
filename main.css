@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #f5f6fa;
+    text-align: center;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;    
+}
+
+header li a {
+    color: #f5f6fa;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1366px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: space-around;    
+    align-items: flex-start;
+} 
+
+.articles article img {
+    /*height: 180px; */
+    width: 100%; 
+    height: 100%;    
+} 
+
+.articles article {
+    width: 40%;
+    border: 15px;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#sports .articles article a {
+    background-color: #009436;    
+}
+
+#economy {
+    background-color: #f8f59f;
+}
+
+#economy .articles article a {
+    background-color: #ff9f1a;
+}
+
+#Tecnologia {
+    background-color: #DDA0DD;
+}
+
+#Tecnologia .articles article a {
+    background-color: #800080;    
+}
+
+#Entretenimento {
+    background-color: #FFA07A;
+}
+
+#Entretenimento .articles article a {
+    background-color: #FF4500;    
+}
