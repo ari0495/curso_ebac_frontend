@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Formulário HTML com JS</title>
+    <link rel="stylesheet" href="./main.css" />
+
+    <title> Novo Usuario </title>
+
+</head>
+<body>
+
+    <div class="container">
+        <section class="header">
+            <h1>Formulário</h1>
+        </section>
+
+        
+        <form id="form" class="form">            
+            <div class="form-content">
+                <label for="campoa">Campo A</label>
+                <input 
+                type="campoa"
+                id="campoa"
+                placeholder="Digite um Numero *"
+                />
+                <a><small>O Numero é Obrigatório.</small></a>
+            </div>
+
+            <div class="form-content">
+                <label for="campob">Campo B</label>
+                <input 
+                type="campob"
+                id="campob"
+                placeholder="Digite outro Numero *"
+                />
+                <a><small>O Numero é Obrigatório.</small></a>
+            </div>
+
+            <button type="submit">Caucular</button>
+            
+        </form>
+        <p class="success-message">           
+        </p>
+        
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
+
+
+
